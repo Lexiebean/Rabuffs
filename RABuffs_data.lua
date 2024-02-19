@@ -1132,41 +1132,48 @@ RAB_Buffs = 	{
 
 
 			flag={name="WSG Flag",textures={"INV_BannerPVP_01","INV_BannerPVP_02"},invert=true,havebuff="Carrying Flag",missbuff="No Flag"},
-			battlestandard={name="Battle Standard",textures={"INV_Banner_02","INV_Banner_01"},castClass="Item",invert=true,type="aura"},
 
 			zandalarbuff={name="Spirit of Zandalar",textures={"Ability_Creature_Poison_05"}, type="special"}, 
 			dragonslayer={name="Rallying Cry of the Dragonslayer",textures={"INV_Misc_Head_Dragon_01"}, type="special"},
 			fengus={name="Fengus' Ferocity (DM-N Tribute)",textures={"Spell_Nature_UndyingStrength"}, type="special"},
 			slipkik={name="Slip'kik's Savvy (DM-N Tribute)",textures={"Spell_Holy_LesserHeal02"}, type="special"},
 			moldar={name="Mol'dar's Moxie (DM-N Tribute)",textures={"Spell_Nature_MassTeleport"}, type="special"},
-
-			regen={name="Regenerating",textures={"INV_Drink_18","INV_Drink_07","INV_Misc_Fork&Knife"},castClass="Item",invert=true,havebuff="Regenerating",missbuff="Not Regenerating",type="self"},
-			hat={name="Admiral's Hat",textures={"INV_Misc_Horn_03"},castClass="Item",type="aura"},
-
-			giants={name="Elixir of the Giants",textures={"INV_Potion_61"},castClass="Item",type="self"},
+			
+			--Removed by TheJakeMF 2/18/24
+			--battlestandard={name="Battle Standard",textures={"INV_Banner_02","INV_Banner_01"},castClass="Item",invert=true,type="aura"},
+			--hat={name="Admiral's Hat",textures={"INV_Misc_Horn_03"},castClass="Item",type="aura"},
+			--regen={name="Regenerating",textures={"INV_Drink_18","INV_Drink_07","INV_Misc_Fork&Knife"},castClass="Item",invert=true,havebuff="Regenerating",missbuff="Not Regenerating",type="self"},
+			--giants={name="Elixir of the Giants",textures={"INV_Potion_61"},castClass="Item",type="self"},
+			--firewater={name="Winterfell Firewater", textures={"INV_Potion_92"},castClass="Item",type="self"},
+            --jujupower={name="Juju Power", textures={"INV_Misc_MonsterScales_11"},castClass="Item",type="self"},
+            --jujumight={name="Juju Might", textures={"INV_Misc_MonsterScales_07"},castClass="Item",type="self"},
+            --jujumight={name="Juju Chill", textures={"INV_Misc_MonsterScales_09"},castClass="Item",type="self"},
+			--trollblood={name="Major Trollblood Potion",textures={"INV_Potion_80"}, castClass="Item", type="self"},
+			--fortitude={name="Elixir of Fortitude",textures={"INV_Potion_44"}, castClass="Item", type="self"},
+			--shadowpower={name="Elixir of Shadow Power", textures={"INV_Potion_46"},castClass="Item",type="self"},
+            --firepower={name="Elixir of Fire Power", textures={"INV_Potion_60"},castClass="Item",type="self"},
+            --frostpower={name="Elixir of Frost Power", textures={"INV_Potion_03"},castClass="Item",type="self"},
+			
 			greaterarcane={name="Greater Arcane Elixir",textures={"INV_Potion_25"},castClass="Item",type="self"},
 			mongoose={name="Elixir of the Mongoose",textures={"INV_Potion_32"},castClass="Item",type="self"},
 			mageblood={name="Mageblood Potion", textures={"INV_Potion_45"},castClass="Item",type="self"},
-            firewater={name="Winterfell Firewater", textures={"INV_Potion_92"},castClass="Item",type="self"},
-            jujupower={name="Juju Power", textures={"INV_Misc_MonsterScales_11"},castClass="Item",type="self"},
-            jujumight={name="Juju Might", textures={"INV_Misc_MonsterScales_07"},castClass="Item",type="self"},
-            jujumight={name="Juju Chill", textures={"INV_Misc_MonsterScales_09"},castClass="Item",type="self"},
+            jujuchill={name="Juju Chill", textures={"INV_Misc_MonsterScales_09"},castClass="Item",type="self"},
 
-        jujumightfirewater={name="Juju Might/FireWater", textures={"INV_Misc_MonsterScales_07", "INV_Potion_92"},castClass="Item",type="self"},
-        jujupowergiants={name="Juju Power/Elixir of the Giants", textures={"INV_Misc_MonsterScales_11", "INV_Potion_61"},castClass="Item",type="self"},
+			anyarcane={name="Arcane Elixir (Any)", textures={"INV_Potion_30", "INV_Potion_25"},castClass="Item",type="self"},
+			anyagi={name="Mongoose/Greater Agility", textures={"INV_Potion_32", "INV_Potion_93"},castClass="Item",type="self"},
+		
+			jujumightfirewater={name="Juju Might/FireWater", textures={"INV_Misc_MonsterScales_07", "INV_Potion_92"},castClass="Item",type="self"},
+			jujupowergiants={name="Juju Power/ Giants", textures={"INV_Misc_MonsterScales_11", "INV_Potion_61"},castClass="Item",type="self"},
         
             rum={name="Any Rum", textures={"INV_Drink_04", "INV_Drink_03", "INV_Drink_08"},castClass="Item",type="self"},
-			trollblood={name="Major Trollblood Potion",textures={"INV_Potion_80"}, castClass="Item", type="self"},
-			fortitude={name="Elixir of Fortitude",textures={"INV_Potion_44"}, castClass="Item", type="self"},
             
-            shadowpower={name="Elixir of Shadow Power", textures={"INV_Potion_46"},castClass="Item",type="self"},
-            firepower={name="Elixir of Fire Power", textures={"INV_Potion_60"},castClass="Item",type="self"},
-            frostpower={name="Elixir of Frost Power", textures={"INV_Potion_03"},castClass="Item",type="self"},
+			spellschoolelixir={name="Spell School Elixir", textures={"INV_Potion_46", "INV_Potion_60", "INV_Potion_03", "Spell_Nature_SpiritArmor"},castClass="Item",type="self"},
             
-            wellfed={name="Well Fed", textures={"Spell_Misc_Food"},castClass="Item", type="self"},
-            tuber={name="Runn Tum Tuber Surprise",textures={"INV_Misc_Organ_03"},castClass="Item",type="self"},
+            --wellfed={name="Well Fed", textures={"Spell_Misc_Food"},castClass="Item", type="self"},
+            --tuber={name="Runn Tum Tuber Surprise",textures={"INV_Misc_Organ_03"},castClass="Item",type="self"},
             squid={name="Winter Squid",textures={"INV_Gauntlets_19"},castClass="Item",type="self"},
             nightfin={name="Nightfin Soup",textures={"Spell_Nature_ManaRegenTotem"},castClass="Item",type="self"},
+			anyfood={name="Any Food", textures={"Spell_Misc_Food", "INV_Boots_Plate_03", "Spell_Nature_ManaRegenTotem","INV_Gauntlets_19","INV_Misc_Organ_03"},castClass="Item",type="self"},
             
 			arcanepot={name="Greater Arcane Protection Potion",textures={"Spell_Holy_PrayerOfHealing02"},castClass="Item",type="self"},
             naturepot={name="Greater Nature Protection Potion",textures={"Spell_Nature_SpiritArmor"},castClass="Item",type="self"},
