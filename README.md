@@ -3,7 +3,7 @@
 Improved version of RABuffs.
 
 Orignal by: dagochen (https://github.com/dagochen/RABuff)
-Modified by: TheJakeMF
+Modified by: LexieBean & TheJakeMF
 
 ## Done
 
