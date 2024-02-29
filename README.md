@@ -7,11 +7,23 @@ Modified by: LexieBean & TheJakeMF
 
 ## Done
 
+New Queries & Fixed Item Menu
+Added Queries:
 
-* Made it possible to track only your own buffs for some consumables.
-* Added Frost Prot Potion
-* Added Arcane Prot Potion
-* Added Juju Chill
-* Added Mix Queries
-  * Juju Might + Fire Water
-  * Juju Power + Elixir of the Giants
+Any Agi (mongoose + Greater Agi)
+Any SP (Baby Arcane/Dreamtonic + Greater SP/Dreamshard Elixir)
+Any Food (Well Fed/Runn Tum, Squid, Stam Shroom, Nightfin)
+JujuMight/Firewater
+JujuPower/Giants
+Any SP School Elixir (Frost, Fire, etc.)
+
+Removed Queries (via comment):
+
+Elixir of Fortitude
+Pirate Hat
+Troll's Blood
+Battle Standard
+Regenerating
+
+Any queries that are obsolete based on combined queries above.
+
